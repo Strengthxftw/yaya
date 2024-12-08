@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Nimmi</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Google font link for a cute font -->
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Birthday Button -->
+    <button id="birthdayButton">
+        <div>
+            <span>
+                <p>Touch me</p>
+            </span>
+        </div>
+        <div>
+            <span>
+                <p></p><p>arhrh >.<</p>
+            </span>
+        </div>
+    </button>
+
+    <!-- Hidden Birthday Message -->
+    <div id="birthdayMessage" class="hidden message-container">
+        <h1>Happy Birthday Nimmi! 🎂</h1>
+        <p>Have a great day! I love you 💖</p>
+        <!-- Image will be displayed after button click -->
+        <img id="birthdayImage" src="3b6b2bbf-d659-4ba3-87a8-a1b5e259df6c.jpg" alt="Birthday Image" />
+    </div>
+
+    <!-- Heart Container (Falling Hearts) -->
+    <div id="heart-container" class="heart-container"></div>
+
+    <!-- Background Music (hidden initially) -->
+    <audio id="backgroundMusic" class="hidden" preload="auto" loop>
+        <source src="duvet.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Link the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
